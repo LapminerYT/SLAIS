@@ -1,0 +1,191 @@
+.container {
+    color: #fff;
+}
+
+.container h1 {
+    padding-top: 110px;
+    font-size: 14px;
+}
+
+.container h2 {
+    margin: 10px 0;
+}
+
+.container a {
+    padding: 0 0 0 40px;
+    min-height: 1px;
+    margin: 2px 0;
+}
+
+.container a:hover {
+    background-color: transparent;
+}
+
+.homeBox1 {
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/370090918_1700317857143131_8040596345922090730_n.png?stp=dst-png_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_ohc=PvjTd08Ov44AX_S8UcL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQdgbNlAnPB9g3x7g3YZOUtjB5T6Y62c0k0eug3DUeaFQ&oe=6576F509);
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.homeBox2 {
+    padding-top: 30px;
+    height: auto !important;
+    padding-bottom: 30px;
+}
+
+.homeBox2 .imgBox {
+    height: 290px;
+    width: 480px;
+    min-width: 480px;
+    margin-right: 20px;
+}
+
+.homeBox2 .contentBox {
+    margin: 20px;
+    margin-top: 0;
+    flex: 1;
+    letter-spacing: 1.2px;
+}
+
+.homeBox2 .container {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.homeBox2 .container p {
+    font-family: 'FVF Fernando 08';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.imgBox img {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.homeContainer {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 900px) {
+    .homeBox2 .contentBox {
+        margin: 0 20px;
+    }
+
+    .homeBox2 .imgBox {
+        height: 250px;
+        width: 420px;
+        min-width: 420px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeBox2 .container {
+        display: block;
+        text-align: center;
+    }
+
+    .homeBox2 .imgBox {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        min-width: 0;
+    }
+
+    .homeBox2 .imgBox img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .homeBox2 .contentBox {
+        margin-top: 10px;
+    }
+}
+
+.contentBox a img {
+    width: 20px;
+    margin-right: 6px;
+}
+
+.contentLink {
+    padding: 0 !important;
+    font-size: 10px !important;
+    text-decoration: none;
+    color: #66a852;
+}
+
+.slideShow {
+    height: auto !important;
+}
+
+.slideShow .container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.homeSlideShow {
+    flex: 1;
+    padding: 0 40px;
+}
+
+.slideShowBnt {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: none;
+}
+
+.slideShowBnt img {
+    height: 40px;
+}
+
+.homeSlideImg {
+    width: 100%;
+}
+.tieu{
+  color: #120d0d;
+  font-family:Calibri Bold;
+  margin-left:-40px;
+  padding-top:50px;
+}
+.tieu:hover{
+  color:orange ;
+}
+.cap{
+  color:ghostwhite;
+  font-family:Arial;
+  margin-left:-60px;
+  margin-bottom:200px;
+}
+.cap:hover{
+  color:orange;
+}
+.jan{
+  margin-left:250px;
+  margin-right:750px;
+  
+}
+.jen{
+  margin-left:250px;
+  margin-right:750px;
+}
+.cip{
+  margin-left:100x;
+  margin-right:750px;
+.cep{
+  border-bottom-right-radius:
+  50%;
+              border-top-left-radius: 
+   50%;
+          }
+}
+.div1{
+   border-radius:50%;
+}
